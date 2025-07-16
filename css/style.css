@@ -43,19 +43,50 @@ h2 {
 }
 
 /* About Section */
+
+
+.skills-header{
+    margin-top: 2rem;
+    text-align: center;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
     margin-top: 1rem;
+    text-align: center;
 }
 
-.skills span {
+.hard-skill {
     background: #3498db;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9rem;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.hard-skill:hover {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.programming{
+    background: #34db50;
+}
+
+.languages{
+    background: #3498db;
+}
+
+.software{
+    background: #db3434;
+}
+
+.education{
+    background: #ac34db;
 }
 
 /* Projects Grid */
